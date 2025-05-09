@@ -10,7 +10,7 @@ NEO4J_USER = os.getenv("NEO4J_USERNAME")  # Note: Match the variable name with .
 NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
 
 # API Keys
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") 
 
 # RAG Configuration
 CHUNK_SIZE = 500
